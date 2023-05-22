@@ -5,18 +5,25 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>aspnet-ProjectApplication-FD1113F9-708C-41E2-891F-EB774497A48B</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
-        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5"/>
-        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5"/>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5"/>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="7.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="7.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>
