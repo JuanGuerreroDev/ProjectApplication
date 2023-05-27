@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "iE426D+4pMO6vlEKCbLTntX52fyb7qbr5CFShsbnTdXG6ZuSKT0x+fEMZmtzWQg2ZmT3FTekZRsstkWzgEW9VA==",
+  "dgSpecHash": "vY4PLfP5oUao6wmwlZP0Uea04as3j1klASXvioyyj3OFwqGME6svO37b8cP4JZS21xV7I2OBaV+BWGR+l1wvNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\1104934325\\RiderProjects\\ProjectApplication\\ProjectApplication\\ProjectApplication.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\1104934325\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\1104934325\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.5\\microsoft.entityframeworkcore.7.0.5.nupkg.sha512",
     "C:\\Users\\1104934325\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.5\\microsoft.entityframeworkcore.abstractions.7.0.5.nupkg.sha512",
     "C:\\Users\\1104934325\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.5\\microsoft.entityframeworkcore.analyzers.7.0.5.nupkg.sha512",
