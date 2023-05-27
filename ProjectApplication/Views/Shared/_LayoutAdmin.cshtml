@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Nombre de tu proyecto - Área de Administrador</title>
+    <title>ProjectApplication - Área de Administrador</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Estilos adicionales para el sidebar del administrador */
@@ -25,14 +25,27 @@
 <body>
     <!-- Aquí puedes agregar la barra de navegación o cualquier otro elemento común en todas las páginas -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Nombre de tu proyecto - Área de Administrador</a>
+        <a class="navbar-brand" href="#">ProjectApplication - Área de Administrador</a>
     </nav>
 
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3">
                 <!-- Aquí puedes agregar el contenido del sidebar exclusivo del administrador -->
-                @RenderSection("adminSidebar", required: false)
+                    <!-- Sidebar content exclusivo del administrador aquí -->
+                    <div class="admin-sidebar">
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://localhost:44323/ServiceType/Create/">Tipos de Servicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Opción 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Opción 3</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
             <div class="col-lg-9">
                 <!-- Aquí puedes agregar el contenido principal exclusivo del administrador -->
