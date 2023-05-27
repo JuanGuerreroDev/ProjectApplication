@@ -1,4 +1,15 @@
+using Microsoft.EntityFrameworkCore;
+using ProjectApplication.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// configuration of Startup.cs
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+builder.Services.AddRazorPages();
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
