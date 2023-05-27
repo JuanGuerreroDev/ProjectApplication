@@ -4,21 +4,19 @@
         <TargetFramework>net7.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <UserSecretsId>aspnet-ProjectApplication-D1F62351-9C36-440A-8059-C48B08504329</UserSecretsId>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
-
-    <ItemGroup>
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.5" NoWarn="NU1605" />
-        <PackageReference Include="Microsoft.AspNetCore.Authentication.OpenIdConnect" Version="7.0.5" NoWarn="NU1605" />
-        <PackageReference Include="Microsoft.Identity.Web" Version="1.16.0" />
-        <PackageReference Include="Microsoft.Identity.Web.UI" Version="1.16.0" />
-    </ItemGroup>
 
     <ItemGroup>
       <Content Include="..\.dockerignore">
         <Link>.dockerignore</Link>
       </Content>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+      <PackageReference Include="Npgsql" Version="7.0.4" />
+      <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.4" />
     </ItemGroup>
 
 </Project>

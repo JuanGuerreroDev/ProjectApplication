@@ -45,27 +45,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.5, )",
-              "noWarn": [
-                "NU1605"
-              ]
+              "version": "[7.0.5, )"
             },
-            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+            "Npgsql": {
               "target": "Package",
-              "version": "[7.0.5, )",
-              "noWarn": [
-                "NU1605"
-              ]
+              "version": "[7.0.4, )"
             },
-            "Microsoft.Identity.Web": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[1.16.0, )"
-            },
-            "Microsoft.Identity.Web.UI": {
-              "target": "Package",
-              "version": "[1.16.0, )"
+              "version": "[7.0.4, )"
             }
           },
           "imports": [

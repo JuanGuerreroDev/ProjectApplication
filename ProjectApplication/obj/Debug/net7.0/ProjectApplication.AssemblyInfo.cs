@@ -10,7 +10,6 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-ProjectApplication-D1F62351-9C36-440A-8059-C48B08504329")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProjectApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
