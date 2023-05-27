@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
+using ProjectApplication.Models;
 
 namespace ProjectApplication.Data;
 
@@ -8,5 +10,5 @@ public class ApplicationDbContext : DbContext
     {
     }
     
-    public DbSet<Models.User> Users { get; set; }
+    public DbSet<User> Users { get; set; }
 }

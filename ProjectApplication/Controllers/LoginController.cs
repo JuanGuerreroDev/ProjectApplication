@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Security.Cryptography;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Threading.Tasks;
 using BCrypt.Net;
 using ProjectApplication.Data;
+using static ProjectApplication.Models.User;
 
 namespace ProjectApplication.Controllers;
 
@@ -24,15 +26,16 @@ public class LoginController : Controller
     [HttpPost]
     public async Task<IActionResult> Index(string email, string password)
     {
-        var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.Email == email);
-        if (user == null)
+        var user = await _dbContext.Users.FirstOrDefaultAsync(u => u.email == email && u.password == password);
+        // user var validate if credentials in form are corrects, if not, user var will be null
+        if (user != null)
         {
-            return RedirectToAction("Index", "Login");
+            return RedirectToAction("Index", "Admin");
         }
-        if (!BCrypt.Net.BCrypt.Verify(password, user.Password))
+        else
         {
-            return RedirectToAction("Index", "Login");
+            ViewBag.error = "Invalid credentials";
+            return RedirectToAction("Index","Home");
         }
-        return RedirectToAction("Index", "Home");
     }
 }

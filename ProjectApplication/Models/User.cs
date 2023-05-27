@@ -1,18 +1,21 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjectApplication.Models;
+
+[Table("users")]
 
 public class User
 {
     [Key]
-    public string? Id { get; set; }
+    public int? id { get; set; }
     
     [Required]
-    public string? Name { get; set; }
+    public string? name { get; set; }
     
     [Required]
-    public string? Email { get; set; }
+    public string? email { get; set; }
     
     [Required]
-    public string? Password { get; set; }
+    public string? password { get; set; }
 }

@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\ProjectApplication.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\1104934325\\RiderProjects\\ProjectApplication\\ProjectApplication\\wwwroot\\Assets\\image\\image1.jpg",
+      "PackagePath": "staticwebassets\\Assets\\image\\image1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1104934325\\RiderProjects\\ProjectApplication\\ProjectApplication\\wwwroot\\Assets\\image\\image2.jpg",
+      "PackagePath": "staticwebassets\\Assets\\image\\image2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\1104934325\\RiderProjects\\ProjectApplication\\ProjectApplication\\wwwroot\\Assets\\image\\image3.jpg",
+      "PackagePath": "staticwebassets\\Assets\\image\\image3.jpg"
+    },
+    {
       "Id": "C:\\Users\\1104934325\\RiderProjects\\ProjectApplication\\ProjectApplication\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

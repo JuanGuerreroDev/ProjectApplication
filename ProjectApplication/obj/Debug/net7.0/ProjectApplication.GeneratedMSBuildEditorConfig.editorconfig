@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\1104934325\RiderProjects\ProjectApplication\ProjectApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/1104934325/RiderProjects/ProjectApplication/ProjectApplication/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/1104934325/RiderProjects/ProjectApplication/ProjectApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -30,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/1104934325/RiderProjects/ProjectApplication/ProjectApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/1104934325/RiderProjects/ProjectApplication/ProjectApplication/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/1104934325/RiderProjects/ProjectApplication/ProjectApplication/Views/Shared/_ValidationScriptsPartial.cshtml]

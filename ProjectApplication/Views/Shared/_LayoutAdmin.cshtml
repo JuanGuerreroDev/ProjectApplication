@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nombre de tu proyecto - Área de Administrador</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos adicionales para el sidebar del administrador */
+        .admin-sidebar {
+            background-color: #f8f9fa;
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .nav-link {
+            color: #333;
+        }
+
+        /* Estilos adicionales para el contenido principal del administrador */
+        .admin-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Aquí puedes agregar la barra de navegación o cualquier otro elemento común en todas las páginas -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Nombre de tu proyecto - Área de Administrador</a>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- Aquí puedes agregar el contenido del sidebar exclusivo del administrador -->
+                @RenderSection("adminSidebar", required: false)
+            </div>
+            <div class="col-lg-9">
+                <!-- Aquí puedes agregar el contenido principal exclusivo del administrador -->
+                @RenderSection("content", required: false)
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
